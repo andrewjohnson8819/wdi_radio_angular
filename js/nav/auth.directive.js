@@ -13,7 +13,7 @@
           });
 
           // detects signout
-          scope.$on("auth:logout-sucess", function(ev, user){
+          scope.$on("auth:logout-success", function(ev, user){
             scope.currentUser = false;
           });
 
